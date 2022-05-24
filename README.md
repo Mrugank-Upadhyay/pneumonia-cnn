@@ -6,4 +6,4 @@ Currently all preprocessing and augmentation is done via TorchVision, and I'm al
 
 I intend to also try Optuna or Hyperopt to automate the tuning process, but also test out a more basic approach using sci-kit learn's grid search
 
-Currently all training is done on the gpu since windows doesn't have ROCm support for my graphics card, and remoteFX has been removed so I can't do a gpu passthrough onto my linux vm.
+Currently all training is done on the cpu since windows doesn't have ROCm support for my graphics card, and remoteFX has been removed so I can't do a gpu passthrough onto my linux vm.
